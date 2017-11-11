@@ -17,6 +17,7 @@ before_script:
   - truffle version
   - node_modules/.bin/truffle version
   - whereis truffle
+  - which truffle
 script:
   - yarn test
 notifications:
